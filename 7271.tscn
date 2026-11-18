@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bb0cej0dhxlpo"]
+
+[ext_resource type="Texture2D" uid="uid://bbi5vunrf77y2" path="res://7271.png" id="1_yob17"]
+[ext_resource type="Script" uid="uid://cg8ax2wbw0ovh" path="res://monster.gd" id="2_u7uco"]
+
+[node name="7271" type="Sprite2D" unique_id=704848862]
+position = Vector2(425.00003, 413)
+scale = Vector2(0.19791669, 0.20312499)
+texture = ExtResource("1_yob17")
+script = ExtResource("2_u7uco")

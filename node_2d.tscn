@@ -1,10 +1,46 @@
 [gd_scene format=3 uid="uid://dh3lg6s80iom3"]
 
-[ext_resource type="Texture2D" uid="uid://bbi5vunrf77y2" path="res://7271.png" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://dp16wq084tsvt" path="res://sprites/seamless-wood-planks-2-500x500.webp" id="1_wtcfe"]
+[ext_resource type="PackedScene" uid="uid://b7cj5anpg4lmy" path="res://player.tscn" id="2_0e48y"]
 
-[node name="Node2D" type="Node2D" unique_id=586275761]
+[node name="Node2D" type="Node2D" unique_id=1779325294]
+position = Vector2(-7.9999986, -7)
+scale = Vector2(0.73, 0.665)
 
-[node name="7271" type="Sprite2D" parent="." unique_id=129103567]
-position = Vector2(560, 302.0001)
-scale = Vector2(0.13333334, 0.13645834)
+[node name="SeamlessWoodPlanks2500x500" type="Sprite2D" parent="." unique_id=737137201]
+position = Vector2(252, 247)
+texture = ExtResource("1_wtcfe")
+
+[node name="SeamlessWoodPlanks2500x501" type="Sprite2D" parent="." unique_id=1308548109]
+position = Vector2(750, 247)
+texture = ExtResource("1_wtcfe")
+
+[node name="SeamlessWoodPlanks2500x502" type="Sprite2D" parent="." unique_id=385383344]
+position = Vector2(253, 738)
+texture = ExtResource("1_wtcfe")
+
+[node name="SeamlessWoodPlanks2500x503" type="Sprite2D" parent="." unique_id=1353108209]
+position = Vector2(750, 738)
+texture = ExtResource("1_wtcfe")
+
+[node name="SeamlessWoodPlanks2500x505" type="Sprite2D" parent="." unique_id=2142227805]
+position = Vector2(1245.2054, 738.3458)
+texture = ExtResource("1_wtcfe")
+
+[node name="Player" parent="." unique_id=658851673 instance=ExtResource("2_0e48y")]
+z_index = 1
+position = Vector2(771.73975, 585.54877)
+scale = Vector2(0.15999997, 0.16000976)
+
+[node name="SeamlessWoodPlanks2500x506" type="Sprite2D" parent="." unique_id=1514362480]
+position = Vector2(1734.2466, 246.61652)
+texture = ExtResource("1_wtcfe")
+
+[node name="SeamlessWoodPlanks2500x504" type="Sprite2D" parent="." unique_id=1229347635]
+position = Vector2(1245.2053, 246.61655)
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("1_wtcfe")
+
+[node name="SeamlessWoodPlanks2500x507" type="Sprite2D" parent="." unique_id=1359876539]
+position = Vector2(1736.9863, 738.3458)
 texture = ExtResource("1_wtcfe")
